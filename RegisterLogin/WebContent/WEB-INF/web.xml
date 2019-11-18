@@ -3,7 +3,7 @@
   <display-name>RegisterLogin</display-name>
   <servlet>
     <servlet-name>reg</servlet-name>
-    <servlet-class>jdbc.Register</servlet-class>
+    <servlet-class>web.Register</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>reg</servlet-name>
@@ -11,11 +11,19 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Log</servlet-name>
-    <servlet-class>jdbc.Login</servlet-class>
+    <servlet-class>web.Login</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Log</servlet-name>
     <url-pattern>/logServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ind</servlet-name>
+    <servlet-class>web.Index</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ind</servlet-name>
+    <url-pattern>/indServlet</url-pattern>
   </servlet-mapping>
   
   
