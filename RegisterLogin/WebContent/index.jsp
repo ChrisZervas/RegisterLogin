@@ -9,7 +9,7 @@
 <body>
 
 	<div>
-		<h1 allign="center" >Welcome User</h1>
+		<h1>Welcome User</h1>
 		<br>
 	</div>
 	

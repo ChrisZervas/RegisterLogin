@@ -7,7 +7,7 @@
 <title>Register</title>
 </head>
 <body>
-	<div allign="center">
+	<div>
 		<form action="Register" method="post">
 			
 			Username: <input type="text" name="username" required="required">

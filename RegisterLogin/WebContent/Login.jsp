@@ -7,7 +7,7 @@
 <title>Login</title>
 </head>
 <body>
-	<div allign="center">
+	<div>
 		<form action="Login" method="post">
 			Username: <input type="text" name="username" required="required">
 			Password: <input type="password" name="password" required="required">
